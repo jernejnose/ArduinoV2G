@@ -1,0 +1,48 @@
+{
+    "name": "ArduinoOcpp",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": "",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/jernejnose/ArduinoV2G.git"
+    },
+    "authors":
+    [
+      {
+        "name": "/",
+        "url": "https://github.com/jernejnose/ArduinoV2G/",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/jernejnose/ArduinoV2G/",
+    "dependencies": [
+       
+      ],
+    "frameworks": "arduino",
+    "platforms": "espressif8266, espressif32",
+
+    "export": {
+        "include":
+        [
+            "src/*",
+            "library.json",
+            "README.md"
+        ],
+        "exclude":
+        [
+            
+        ]
+    },
+    "examples": [
+      {
+          "name": "Basic ISO15118 DC V2G connection",
+          "base": "examples/basic_example",
+          "files": [
+              "basic_example.ino"
+          ]
+      }
+  ]
+  }
